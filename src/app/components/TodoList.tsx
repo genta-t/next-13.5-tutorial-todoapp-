@@ -2,7 +2,7 @@ import React from "react";
 import { TypeTodoListProps } from "../typs";
 import Todo from "./Todo";
 
-const TodoList = ({ todos }: TypeTodoListProps ) => {
+const TodoList = ({ todos }: TypeTodoListProps) => {
   return (
     <ul className="space-y-3">
       {todos.map((t) => {
